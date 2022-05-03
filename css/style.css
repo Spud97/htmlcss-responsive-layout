@@ -52,6 +52,11 @@ footer {
   flex-wrap: wrap;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -101,11 +106,11 @@ footer {
 }
 
 .gap2 {
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .gap3 {
-  gap: 3rem;
+  gap: 2rem;
 }
 
 @media screen and (max-width: 980px) {
