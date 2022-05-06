@@ -4,12 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>Responsive</title>
   </head>
   <body>
-    <header class="bg-secondary">
-      <nav></nav>
+    <header class="navbar bg-secondary">
+      <nav class="row space-between container container-nav">
+        <div>
+          <img class="logo" src="img/logo.png" alt="" />
+        </div>
+        <div>
+          <a class="text-white font-sm" href="">Planning</a>
+          <a class="text-white font-sm" href="">Testimonials</a>
+          <a class="text-white font-sm" href="">Features</a>
+          <a class="text-white font-sm" href="">About Us</a>
+          <button id="get-started" class="button bg-white pointer">Get Started</button>
+        </div>
+      </nav>
     </header>
     <main>
       <!-- Prima sezione -->
@@ -17,19 +35,34 @@
         <div class="container">
           <div class="row gap1">
             <div class="col-2 col-sm-full">
-              <div class="card"></div>
+              <div class="card bg-lightblue row">
+                <div class="col">
+                  <h5 class="text-blue mb2">Get a demo application</h5>
+                  <p class="text-grey font-sm mb2"><strong>Lorem ipsum dolor slt amet consectetur
+                    adipisicing elit. Ratione nobis, architecto ad
+                    dolore quod, facere totam quas recusandae
+                    blanditis.</strong></p>
+                  <button class="button bg-secondary mb2">
+                    <i class="fa-brands fa-apple text-white"></i>
+                    <span id="app-store" class="text-white"><strong>App Store</strong></span>
+                  </button>
+                </div>
+                <div class="col relative">
+                  <img id="phone" src="img/phone.png" alt="">
+                </div>
+              </div>
             </div>
             <div class="col-1 col-sm-full">
-              <div class="card"></div>
+              <div class="card bg-lightblue"></div>
             </div>
             <div class="col-1 col-sm-full">
-              <div class="card"></div>
+              <div class="card bg-lightblue"></div>
             </div>
             <div class="col-1 col-sm-full">
-              <div class="card"></div>
+              <div class="card bg-lightblue"></div>
             </div>
             <div class="col-1 col-sm-full">
-              <div class="card"></div>
+              <div class="card bg-lightblue"></div>
             </div>
           </div>
         </div>

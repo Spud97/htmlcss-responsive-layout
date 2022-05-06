@@ -4,8 +4,12 @@
   padding: 0;
 }
 
+body {
+  font-size: 1rem;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 header {
-  /* DEBUG */
   padding: 2rem 0rem;
 }
 
@@ -14,11 +18,40 @@ footer {
   padding: 4rem 0rem;
 }
 
+a {
+  text-decoration: none;
+  padding: 4px 10px;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+#get-started {
+  margin-left: 10px;
+}
+
+#app-store {
+  letter-spacing: 3px;
+  padding-left: 5px;
+}
+
+#phone {
+  height: 210px;
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+}
+
 :root {
   --color-primary: #9792e4;
   --color-secondary: #0084fd;
   --color-secondary-light: #b5ddff;
   --color-footer: black;
+}
+
+.debug {
+  border: 1px dashed red;
 }
 
 .container {
@@ -32,6 +65,10 @@ footer {
   padding-bottom: 2rem;
 }
 
+.container-nav {
+  padding: 0rem 1rem;
+}
+
 .container-p-medium {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -40,6 +77,10 @@ footer {
 .container-p-large {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.navbar {
+  padding: 0.6rem 1rem;
 }
 
 .section {
@@ -61,6 +102,10 @@ footer {
   justify-content: center;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .col {
   flex-grow: 1;
   flex-basis: 0;
@@ -71,7 +116,7 @@ footer {
 }
 
 .col-2 {
-  flex-basis: calc(((100% - 1rem) / 3) * 2);
+  flex-basis: calc((((100% - 1rem) / 3) * 2) + 4px);
 }
 
 .col-3 {
@@ -79,10 +124,18 @@ footer {
 }
 
 .card {
-  /* DEBUG */
-  border: 1px solid red;
   border-radius: 1rem;
-  min-height: 100px;
+  min-height: 250px;
+  padding: 1.5rem 1.1rem 0rem;
+}
+
+.box {
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.logo {
+  height: 2rem;
 }
 
 .bg-primary {
@@ -111,6 +164,52 @@ footer {
 
 .gap3 {
   gap: 2rem;
+}
+
+.mb2 {
+  margin-bottom: 1.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.font-sm {
+  font-size: 0.8rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: var(--color-secondary);
+}
+
+.text-grey {
+  color: #5e7181;
+}
+
+.text-violet {
+  color: var(--color-primary);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-lightblue {
+  background-color: var(--color-secondary-light);
+}
+
+.button {
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 980px) {
