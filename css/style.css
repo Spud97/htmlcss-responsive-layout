@@ -38,9 +38,7 @@ h5 {
 
 #phone {
   height: 210px;
-  position: absolute;
-  bottom: 0px;
-  right: 30px;
+  
 }
 
 :root {
@@ -100,6 +98,14 @@ h5 {
 
 .justify-center {
   justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
 }
 
 .space-between {
@@ -167,7 +173,7 @@ h5 {
 }
 
 .mb2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
 }
 
 .relative {
@@ -176,6 +182,10 @@ h5 {
 
 .font-sm {
   font-size: 0.8rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-white {
@@ -210,6 +220,12 @@ h5 {
 
 .pointer {
   cursor: pointer;
+}
+
+.card-icon {
+  font-size: 4rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 980px) {
